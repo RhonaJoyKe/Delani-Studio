@@ -15,9 +15,19 @@
     width: 1000px;
     height: 500px;
 }
+.services{
+    margin-top: 30px;
+}
 .portfolio{
-    padding: 30px;
-    justify-content: space-between;
+
+
+    
+}
+.port1{
+    display: flex;
+}
+.port2{
+    display: flex;
 }
 .contactus{
     background-image: url("assets/backgrounds/c_image.jpg");
