@@ -14,6 +14,7 @@ body{
     background-size: cover;
     width: 100%;
     height: 500px;
+    text-align: center;
 }
 .services{
     margin-bottom: 400px;
@@ -39,4 +40,7 @@ margin-top: 50px
     background-size: cover;
     width: 100%;
     height: 400px;
+}
+form input{
+    border:2px solid grey;
 }
