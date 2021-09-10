@@ -1,26 +1,36 @@
 jQuery(document).ready(function() {
-    jQuery("button#button").click(function() {
+    jQuery("#button").click(function() {
         var userName=$('text').val;
         var usermail=$('email').val;
         var usermsg=$('texta').val;
-        if (userName){
+        if (userName.checked){
             console.log("Name is filled");
-            if(usermail){
+            if(usermail.checked){
                 console.log("email is filled");
             
-            if(usermsg){
+               if(usermsg.checked){
                 console.log("message is filled")
-
-            }else{
+              //processin();
+               }
+                  else{ 
                 alert("Please Write a message")
             }
-           }else{
+            }
+            else{
             alert("Please Write a message");
            }
-           else{
+            
+            }
+        else{
             alert("Please Write a message");
            }
         }
-    })
-    function processin
+    
+    
+    )
+    // function processin(){
+    //     $("form").each(function(){
+    //         $(this).find(':input');
+    //     });
+    // }
 });
