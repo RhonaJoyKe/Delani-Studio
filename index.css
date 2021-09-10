@@ -71,6 +71,7 @@ form input{
     display: inline-block;
 }
 .socials{
-    margin-top:50px;
+    margin-top:20px;
     float: center;
+    margin-left: 30%;
 }
