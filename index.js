@@ -12,6 +12,37 @@ jQuery(document).ready(function() {
     $("#destxt").slideUp();
     
   });
+
+  $('.devimg').click(function() {
+   
+    $("#devtxt").show();
+    $(".devimg").hide();
+    $("#devtxt").slideDown();
+    
+  });
+  $('#devtxt').click(function() {
+   
+    $( ".devimg").show();
+    $("#devtxt").slideUp();
+    
+  });
+
+  $('.servsimg').click(function() {
+   
+    $("#servstxt").show();
+    $(".servsimg").hide();
+    $("#servstxt").slideDown();
+    
+  });
+  $('#servstxt').click(function() {
+   
+    $( ".servsimg").show();
+    $("#servstxt").slideUp();
+    
+  });
+
+
+
 });
 
 

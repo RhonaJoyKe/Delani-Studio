@@ -50,10 +50,15 @@ body{
 }
 #design{
   position:absolute;left:200px;
+  
    
 }
 #desb{
     position:absolute;left:-5px;top:30px;
+}
+#destxt{
+    text-align: center;
+   
 }
 #dev{
     position:absolute;left:500px;
