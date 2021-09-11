@@ -1,11 +1,18 @@
 jQuery(document).ready(function() {
   $('.desimg').click(function() {
-    console.log("clicked")
-    //$().toggle(function() {
-    $("#destxt").toggle();
+   
+    $("#destxt").show();
+    $(".desimg").hide();
+    $("#destxt").slideDown();
+    
   });
+  $('#destxt').click(function() {
+   
+    $( ".desimg").show();
+    $("#destxt").slideUp();
+    
   });
-
+});
 
 
 
