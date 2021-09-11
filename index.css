@@ -34,6 +34,10 @@ body{
    padding-top: 50px;
    font-size: small;
 }
+#wwdh{
+    text-align: center;
+    margin-top: 20px;
+}
 .wwd{
     display: flex;
     width:50%;
