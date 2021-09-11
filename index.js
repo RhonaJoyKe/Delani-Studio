@@ -1,36 +1,30 @@
 jQuery(document).ready(function() {
     jQuery("#button").click(function() {
-        var userName=$('text').val;
-        var usermail=$('email').val;
-        var usermsg=$('texta').val;
-        if (userName.checked){
+        var username = $('text').val;
+        var email = $('email').val;
+        var message = $('text').val;
+    
+        if (username.checked) { 
             console.log("Name is filled");
-            if(usermail.checked){
-                console.log("email is filled");
+        }else {
+            alert("Please enter your name");
+          }
+           if (email.checked) {
+              console.log("Email is filled");}
+              else {
+                alert("Please enter your DOB");
+              }
+              if (message) {
+                console.log("message is selected");
+        
+            } else {
+                 alert("Please select your gender");
+        
+              }
             
-               if(usermsg.checked){
-                console.log("message is filled")
-              //processin();
-               }
-                  else{ 
-                alert("Please Write a message")
-            }
-            }
-            else{
-            alert("Please Write a message");
-           }
-            
-            }
-        else{
-            alert("Please Write a message");
-           }
-        }
-    
-    
-    )
-    // function processin(){
-    //     $("form").each(function(){
-    //         $(this).find(':input');
-    //     });
-    // }
+            })
+        
 });
+
+        
+       
