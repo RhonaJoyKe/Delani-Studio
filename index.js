@@ -40,6 +40,7 @@ jQuery(document).ready(function() {
     $("#servstxt").slideUp();
     
   });
+  $()
 
 
 
