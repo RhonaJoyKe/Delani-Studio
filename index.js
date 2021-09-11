@@ -40,8 +40,14 @@ jQuery(document).ready(function() {
     $("#servstxt").slideUp();
     
   });
-  $()
-
+  $('#img1').hover(function(){
+  $(".bg1").show();
+   
+  });
+  $('#img1').mouseout(function(){
+    $(".bg1").hide();
+     
+    });
 
 
 });
