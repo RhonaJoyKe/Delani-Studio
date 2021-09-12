@@ -94,7 +94,10 @@ jQuery(document).ready(function() {
   $('#img8').mouseout(function(){
    $(".bg8").hide();
   });
-
+  document.getElementById("submit").addEventListener(("click"), function () {
+    var username =document.getElementById("name").value
+    alert(`${username} we have received your message. Thank you for reaching out to us.`)
+  });
 });
 
 
