@@ -94,41 +94,32 @@ jQuery(document).ready(function() {
   $('#img8').mouseout(function(){
    $(".bg8").hide();
   });
+
   document.getElementById("submit").addEventListener(("click"), function () {
-    var username =document.getElementById("name").value
-    alert(`${username} we have received your message. Thank you for reaching out to us.`)
-  });
+  let userName =document.getElementById("name").value
+    let email=document.getElementById("email").value
+    let  message=document.getElementById("texta").value
+    const em= /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+    if(userName===null||userName===""){
+    alert("Please Write your Name")
+    }
+    else if(email===""|email===null){
+      alert("Please write your email")
+   }
+    else if (message===""||message===null){
+    alert("Please write your message")
+    }
+    else if(email.match(em) && email!="" && message !="" && userName !=""){
+      alert(`${userName} we have received your message. Thank you for reaching out to us.`)
+  
+    }
+  })
 });
 
-
-
-
-//     jQuery("#button").click(function() {
-//         var username = $('text').val;
-//         var email = $('email').val;
-//         var message = $('text').val;
-    
-//         if (username.checked) { 
-//             console.log("Name is filled");
-//         }else {
-//             alert("Please enter your name");
-//           }
-//            if (email.checked) {
-//               console.log("Email is filled");}
-//               else {
-//                 alert("Please enter your DOB");
-//               }
-//               if (message) {
-//                 console.log("message is selected");
-        
-//             } else {
-//                  alert("Please select your gender");
-        
-//               }
-            
-//             })
-        
-// });
-
-        
       
+
+
+
+
+
+
