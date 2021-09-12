@@ -173,19 +173,41 @@ margin-top: -350px;
     background-size: cover;
     width: 100%;
     height: 400px;
+   /* margin-top: 20px;*/
+}
+td{
+   
+
+    
+}
+form{
+    margin-left: 300px;
+    margin-top: 80px;
+    
+
+}
+.inbg{
+    background-color: transparent;
+}
+#name{
+    width:300px;
+}
+#email{
+    margin-left:-250px ;
+    width:300px;
+}
+#texta{
+    width:550px;
+    height:100px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#submit{
+    margin-left:250px ;
     margin-top: 10px;
 }
-
-
-input[email]{
-    width: 400px;
-    height:700px;
-}
-input[textarea]{
-    height:700px;
-}
 input[button]{
-    height:700px;
+   float: center;
 }
 .socials{
     margin-top:20px;

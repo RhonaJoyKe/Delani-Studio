@@ -44,9 +44,9 @@
 
         </div>
         <h3 id="wwdh">WHAT WE DO</h3>
-        <div class="container">
+       
         <div class="wwd">
-
+           
             <div id="design">
                 <h5>Design</h5>
 
@@ -54,16 +54,13 @@
                     <br> Mauris orci magna <br>Quisque <br>
                     Nam eget augue enim. </p>
                 <div class="desimg">
-                    <img src="assets/services_icons/design_icon.png" class="img-fluid">
+                    <img src="assets/services_icons/design_icon.png" class="img-responsive">
                 </div>
-
-
-
-
-            </div>
+           </div>
+           
             <div id="dev">
                 <h5>Development</h5>
-                <div class="devimg"><img src="assets/services_icons/dev_icon.png" class="img-fluid"></div>
+                <div class="devimg"><img src="assets/services_icons/dev_icon.png" class="img-responsive"></div>
 
                 <p id="devtxt" style="display: none;">Lorem ipsum dolor sit amet,<br> Cras varius rutrum gravida.
                     <br> Mauris orci magna <br>Quisque <br>
@@ -71,16 +68,14 @@
             </div>
             <div id="servs">
                 <h5>Product Development</h5>
-                <div class="servsimg"><img src="assets/services_icons/product_icon.png" class="img-fluid"></div>
+                <div class="servsimg"><img src="assets/services_icons/product_icon.png" class="img-responsive"></div>
 
                 <p id="servstxt" style="display: none;">Lorem ipsum dolor sit amet,<br> Cras varius rutrum gravida.
                     <br> Mauris orci magna <br>Quisque <br>
                     Nam eget augue enim. </p>
             </div>
-
-
-        </div>
-    </div>
+         </div>
+    
 
          <div class="portfolio">
             <div class="port1">
@@ -143,17 +138,26 @@
                 </div>
             </div>
         </div> 
+        <div class="container-fluid">
         <div class="contactus">
-            <h5>CONTACT US</h5>
+            <h5 id="conus" style="text-align: center; margin-bottom: -70px;color: white;">CONTACT US</h5>
             <form>
-                <input type="text" id="name" placeholder="NAME" required> <br>
-                <input type="email" id="email" placeholder="EMAIL" required><br>
-                <input type="textarea" id="texta" placeholder="Your Message Here" required><br>
-                <input type="button" id="submit" class="btn-success" value="SUBMIT">
-
+                <table>
+               <tr>
+              <td><input class="inbg" type="text" id="name" placeholder="NAME" required> <br></td>  
+               <td><input class="inbg"type="email" id="email" placeholder="EMAIL" required><br>
+               </td> 
+               </tr> 
+             <tr>
+                 <td><input class="inbg"type="text" id="texta" placeholder="Your Message Here" cols="20"rows="70"required><br></td> 
+                 </tr> 
+               <tr><td><input class="inbg" type="button" id="submit" class="btn-success" value="SUBMIT"></td>
+            </tr> 
+            </table>
             </form>
 
         </div>
+    </div>
         <div class="socials">
 
             <img src="assets/social_icons/twitter.png">
