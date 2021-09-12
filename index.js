@@ -1,13 +1,13 @@
 jQuery(document).ready(function() {
   $('.desimg').click(function() {
-   
-    $("#destxt").show();
-    $(".desimg").hide();
+     $("#destxt").toggle();
+    // $("#destxt").show();
+     $(".desimg").hide();
     $("#destxt").slideDown();
     
   });
   $('#destxt').click(function() {
-   
+    $(".desimg").toggle();
     $( ".desimg").show();
     $("#destxt").slideUp();
     

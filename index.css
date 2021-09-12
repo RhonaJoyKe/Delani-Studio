@@ -85,14 +85,64 @@ margin-top: -350px;
 }
 .bg1{
     background-color: white;
-    width:100px;
+    width:80px;
     height:50px;
     position: relative;top:-140px;left:80px;
     display: none;
 }
+.bg2{
+    background-color: white;
+    width:80px;
+    height:25px;
+    position: relative;top:-90px;left:80px;
+}
+.bg3{
+    background-color: white;
+    width:80px;
+    height:50px;
+    position: relative;top:-140px;left:80px;
+
+}
+.bg4{
+    background-color: white;
+    width:80px;
+    height:30px;
+    position: relative;top:-120px;left:80px;
+ 
+}
+.bg5{
+    background-color: white;
+    width:80px;
+    height:50px;
+    position: relative;top:-140px;left:80px;
+  
+}
+.bg6{
+    background-color: white;
+    width:80px;
+    height:50px;
+    position: relative;top:-140px;left:80px;
+   
+}
+.bg7{
+    background-color: white;
+    width:80px;
+    height:50px;
+    position: relative;top:-140px;left:80px;
+ 
+}
+.bg8{
+    background-color: white;
+    width:80px;
+    height:50px;
+    position: relative;top:-140px;left:80px;
+    
+}
+
 .p2{
     margin-right: 10px;
 }
+
 .p3{
     margin-right: 10px;
 }
