@@ -12,10 +12,11 @@ body{
     color: white;
 }
 #logo{
-    padding-top: 120px;
+    padding-top: 100px;
 }
 #mouse{
-    padding-top: 16rem;}
+    margin-bottom: -120px;
+}
 .aboutus{
 
     margin-top: 50px;
@@ -141,12 +142,21 @@ height:auto;
     background-repeat: no-repeat;
 }
 form{
-    width:60%;
+    width:80%;
+    padding-bottom: 3rem;
+    padding-left: 10rem;
     
+}
+form ::placeholder{
+    text-decoration: white;
 }
 
  .form .form-control{
     background-color: transparent;
+
+}
+#submit{
+    margin-top: 5px;
 }
 
 .socials{
