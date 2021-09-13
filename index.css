@@ -1,5 +1,7 @@
 body{
-    float:center;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 .landing{
     background-image: url("assets/backgrounds/h_img.jpg");
@@ -13,8 +15,7 @@ body{
     padding-top: 120px;
 }
 #mouse{
-    padding-top: 80px;
-}
+    padding-top: 16rem;}
 .aboutus{
 
     margin-top: 50px;
@@ -38,51 +39,17 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-/* .wwd{
-    display: flex;
-    width:50%;
-    height:500px;
-    margin-top: 50px;
-   
-    padding-left: -350px;
-  
+.containerwwd{
+    padding-bottom: 80px;
+}
 
-}
-#design{
-  position:absolute;left:200px;
-  
-   
-}
-#desb{
-    position:absolute;left:-5px;top:30px;
-}
-#destxt{
-    text-align: center;
-   
-}
-#dev{
-    position:absolute;left:500px;
-}
-#servs{
-     position:absolute;right:100px;
-} */
 .portfolio{
 
-padding-top: 60px;
+padding-top: 80px;
 width:100%;
 height:auto;
     
 } 
-/* .port1{
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-
-}
-.p1{
-    margin-right: 10px;
-
-} */
 .bg1{
     background-color:transparent;
     border:5px solid white;
@@ -100,6 +67,7 @@ height:auto;
     position: relative;top:-140px;left:80px;
     display: none;
     font-weight: 900;
+    
 }
 .bg3{
     background-color:transparent;
@@ -156,90 +124,31 @@ height:auto;
     display: none;
     font-weight: 900;
 }
-
-/* .p2{
-    margin-right: 10px;
-}
-
-.p3{
-    margin-right: 10px;
-}
-
-.p5{
-    margin-right: 10px;
-}
-.p6{
-    margin-right: 10px;
-}
-.p7{
-    margin-right: 10px;
-}
-.port2{
-    display: flex;
-} */
-
-.contactus{
+/* .contactus{
     background-image: url("assets/backgrounds/c_image.jpg");
     margin-top: 50px;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: auto;
    margin-top: 20px;
-}
-.form-control{
-    background-color: transparent;
-}
-/* td{
-   
-
-    
+} */
+.contactus{
+    background-image: url("assets/backgrounds/c_image.jpg");
+    margin-top: 20px;
+    padding-top: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 form{
-    margin-left: 300px;
-    margin-top: 80px;
+    width:60%;
     
-    
-
 }
-.inbg{
+
+ .form .form-control{
     background-color: transparent;
 }
-#name{
-    width:300px;
-    border: 1px solid white;
-    color: white;
-}
-#email{
-    margin-left:-250px ;
-    width:300px;
-    border: 1px solid white;
-    text-decoration: white;
-}
-#texta{
-    width:550px;
-    height:100px;
-    margin-left: 20px;
-    margin-top: 5px;
-    border: 1px solid white;
-    color: white;
-}
-#submit{
-    margin-left:250px ;
-    margin-top: 10px;
-}
-input[button]{
-   float: center;
-} */
+
 .socials{
-    margin-top:20px;
-    float: center;
-    margin-left: 30%;
-}
-#delani{
-    margin-left: 25%;
-    font-weight: 300;
-}
-#delani1{
-    margin-left: 28%;
-    font-weight: 300;
+    padding-top: 20px;
 }
