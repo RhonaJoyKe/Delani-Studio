@@ -20,7 +20,7 @@ This is a web page of  studio with details on the different services they offer,
 
 ### Live Link
 
-<a>https://ezekielkibiego.github.io/Akan-Names/</a>
+<a>https://rhonajoyke.github.io/Delani-Studio/</a>
 
 ## Known Bugs
 
